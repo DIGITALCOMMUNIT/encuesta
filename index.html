@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="logo"><img src="descar.jpg" alt=""></div>
+
+    <img src="icon dia.png" alt="icon dia.png" width="50" height="50" onclick="cambiarColor()" class="mi-icono">
+
+    <div class="container">
+        <a href="ingles.html" class="boton">Ingles</a>
+        <h1>Restaurant español</h1>
+        <form>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="experience">Overall Experience:</label>
+            <select id="experience" name="experience">
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="average">Average</option>
+                <option value="poor">Poor</option>
+            </select>
+
+            <label for="food-quality">Food Quality:</label>
+            <select id="food-quality" name="food-quality">
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="average">Average</option>
+                <option value="poor">Poor</option>
+            </select>
+
+            <label for="service">Service:</label>
+            <select id="service" name="service">
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="average">Average</option>
+                <option value="poor">Poor</option>
+            </select>
+
+            <label for="atmosphere">Atmosphere:</label>
+            <select id="atmosphere" name="atmosphere">
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="average">Average</option>
+                <option value="poor">Poor</option>
+            </select>
+
+            <label for="recommendation">Would you recommend us to others?</label><br>
+            <input type="radio" id="yes" name="recommendation" value="yes">
+            <label for="yes">Yes</label><br>
+            <input type="radio" id="no" name="recommendation" value="no">
+            <label for="no">No</label><br>
+
+            <label for="comments">Additional Comments:</label><br>
+            <textarea id="comments" name="comments"></textarea>
+
+            <input type="submit" value="Enviar">
+            
+        </form> 
+    </div>
+
+    <footer>
+        <p>Este es el contenido del footer</p>
+    </footer>
+
+    <script src="java.js"></script>
+    <script src="scrip.js"></script>
+</body>
+</html>
