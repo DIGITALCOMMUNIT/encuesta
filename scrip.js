@@ -1,5 +1,5 @@
 const sgMail = require('@sendgrid/mail');
-sgMail.setApiKey('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');
+sgMail.setApiKey('');
 
 document.querySelector('form').addEventListener('submit', function(event) {
   event.preventDefault();
